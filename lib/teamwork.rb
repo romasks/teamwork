@@ -33,6 +33,11 @@ module Teamwork
       response.body
     end
 
+    def tasks(request_params)
+      response = @api_conn.get "tasks.json", request_params
+      response.body
+    end
+
     def latestActivity(maxItems: 60, onlyStarred: false)
       request_params = {
         maxItems: maxItems,
