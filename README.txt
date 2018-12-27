@@ -10,11 +10,11 @@ A gem wrapper for the Teamwork.com API. (Homepage: http://www.teamwork.com/ API 
 
 == INSTALL:
 
-    gem install teamwork
+    gem install teamwork-ext
 
 == API EXAMPLES:
 
-    require 'teamwork'
+    require 'teamwork-ext'
 
     api = Teamwork::API.new project_name: 'your-site-name', api_key: 'your-api-key'
 

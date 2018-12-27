@@ -3,6 +3,6 @@ History.txt
 Manifest.txt
 README.txt
 Rakefile
-bin/teamwork
-lib/teamwork.rb
-test/test_teamwork.rb
+bin/teamwork-ext
+lib/teamwork-ext.rb
+test/test_teamwork_ext.rb

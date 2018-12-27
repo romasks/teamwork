@@ -1,5 +1,5 @@
 require "minitest/autorun"
-require "teamwork"
+require "teamwork-ext"
 
 class TestTeamwork < MiniTest::Unit::TestCase
   def test_sanity
