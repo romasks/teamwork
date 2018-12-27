@@ -2,9 +2,9 @@ require 'faraday'
 require 'faraday_middleware'
 require 'json'
 
-module Teamwork
+module TeamworkExt
 
-  VERSION = "1.0.8"
+  VERSION = "1.0.1"
 
   class API
 
